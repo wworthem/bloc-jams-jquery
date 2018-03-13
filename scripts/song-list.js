@@ -1,3 +1,4 @@
+//udpated 3/13/18...
 {
   album.songs.forEach((song, index)=>{
     song.element = $(`
@@ -13,7 +14,7 @@
         <td>${song.duration}</td>
       </tr>
       `);
-      
+
       song.element.on('click', event => {
         player.playPause(song);
       });
