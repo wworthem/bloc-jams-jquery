@@ -1,3 +1,4 @@
+//updated 3/22/18 for recommit...
 {
   $('button#play-pause').on('click', function(){
     //player.playPause();
